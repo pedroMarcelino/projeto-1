@@ -1,6 +1,6 @@
-import { PostCard } from './components/PostCard';
+import { PostCard } from '../PostCard';
 
-export const Post = ({ posts }) => (
+export const Posts = ({ posts }) => (
   <div className="posts" >
     {posts.map(post => (
       <PostCard key={post.id} post={post} />
